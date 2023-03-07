@@ -22,3 +22,7 @@ def join_files(input_dir_path, output_file_path):
     with open(output_file_path, 'wb') as output_file:
         output_file.write(original_data)
 
+
+
+join_files('~/shard-code/new-script/new_thumb.png', '~/')
+
